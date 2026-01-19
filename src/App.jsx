@@ -146,10 +146,6 @@ function App() {
                         <h1 className="app-title">Notification Dashboard</h1>
                         <p className="app-subtitle">Real-time notifications with optimized performance</p>
                     </div>
-                    <div className="connection-status">
-                        <span className={`status-dot ${isConnected ? 'connected' : 'disconnected'}`}></span>
-                        <span className="status-text">{isConnected ? 'Connected' : 'Disconnected'}</span>
-                    </div>
                 </div>
             </header>
 
